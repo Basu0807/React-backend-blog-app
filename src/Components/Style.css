@@ -1,0 +1,807 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* body{
+    background-image: repeating-radial-gradient(rgb(252, 235, 162),white ,rgb(236, 173, 80));
+    
+} */
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 25px;
+    position: relative;
+    top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.heading1{
+    transform:rotate(270deg);
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+.heading2{
+    font-size: 42px;
+}
+.NavBar{
+
+    width: 80%;
+    margin:auto;
+    border-bottom: 1px solid black;
+    
+}
+#NavLinks{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.NAV{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.NAV:hover{
+    color: rgb(248, 168, 125);
+    
+}
+
+.NavLine{
+    border: 1px solid black;
+    margin: auto;
+}
+
+.Underline{
+    border: 1.5px solid #F08080;
+    border-radius: 20px;
+    width: 6rem;
+    
+}
+
+
+
+.DynamicCompo{
+    text-align:'center'; 
+    width:500;
+    display:'flex';
+    flex-Direction:'column'
+}
+.ContentContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+   margin: auto;
+    
+}
+.GenericContent-1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: #908D8D inset 0px -3px 0px
+
+}
+.GenericContent-1 img[alt="notfound"]{
+    width: 8em;
+    /* width:12rem; */
+    height: 10rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.GenericContent-1:hover{
+    box-shadow: #908D8D 0px 0px 8px 0px;
+    
+}
+
+img{
+    /* max-width: 100%; */
+    max-height: 100%;
+}
+h4{
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+
+
+
+
+
+.TopPost{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 15%;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: #908D8D inset 0px -2px 0px;
+}
+.Subhead{
+    display: flex;
+}
+
+.TopPost:first-child{
+    height: 10%;
+}
+
+#TopPost0{
+    display: inline-block;
+}
+
+
+.TopPostImage img[alt="logo0"]{
+    height: 60%;
+    width: 100%;
+    
+}
+.TopPost img{
+    
+    border-radius: 3px;
+}
+#index{
+    color: #807d7d;
+    font-size: 50px;
+}
+#number0{
+    position: relative;
+    top: 20px;
+}
+.index0{
+    float: right;
+    /* position: relative;
+    bottom: 10px; */
+}
+
+.TopPost:hover{
+    box-shadow: #908D8D 0px 0px 5px -1px;
+}
+ 
+.TopPost p{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.Content-1{
+    width: 50%;
+}
+.Content-2{
+    width: 35%;
+}
+.Container1-1{
+    /* line-height: 12px; */
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 15rem;
+    width: 25rem;
+    /* text-overflow: ellipsis; */
+}
+.Container1-1 p{
+    font-size: 13px;
+    text-align:left;
+    line-height: 20px;
+    color: #908D8D;
+}
+.Date{
+    color: #908D8D;
+    font-size: 12px;
+    
+}
+.Blog{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#Link{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    color: rgb(194, 177, 177);
+}
+
+.Ad{
+    height: 55rem;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(https://newspaperads.ads2publish.com/wp-content/uploads/2019/06/mx-player-an-original-series-bollywood-buzzinga-ad-delhi-times-12-05-2019.png);
+    background-size: contain;
+    background-repeat: repeat;
+    color: red;
+    text-align: center;
+    font-size: large;
+    border: 5px solid;
+    animation: Ad 1s infinite;
+}
+
+@keyframes Ad {
+    0%{
+        border-color: red green;
+        color: white
+    }
+    50%{
+        border-color: green red;
+        color: red;
+        }
+    100%{
+        border-color: red green;
+        color: white
+}
+}
+
+/* ------------------------------------------ */
+.DynamicCompo{
+    /* width: 100vw; */
+    margin: auto;
+    text-align: center;
+} 
+.DynamicCompo1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.DynamicCompo h1{
+    width: 80%;
+    margin: auto;
+    font-size: 40px;
+    background-image: radial-gradient(rgb(248, 230, 230), rgb(237, 246, 252), rgb(246, 214, 214));
+    color: black;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    text-shadow: #8c8e8f 1px -1px;
+    /* text-decoration:underline */
+}
+
+.DynamicImage p{
+   width: 80%;
+   
+   margin: auto;
+   line-height: 25px;
+   text-align:justify;
+}
+
+.DynamicImage img[alt="notfound"]{
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.MyInfo{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+ }
+ .MyInfo2{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+ }
+ .MyName2 img[alt="notfound"]{
+    height: 60px;
+    padding: 3px;
+
+    
+ }
+.MyName{
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+}
+.MyName p{
+    color: #908D8D;
+}
+.MyName img[alt="notfound"]{
+    height: 60px;
+    padding: 3px;
+
+    
+ }
+
+
+ .DynamicTag{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    text-align: center;
+    padding: 2px;
+ }
+
+ .DynamicTag p{
+    height: 30px;
+    color: #807d7d;
+    font-size: 20px;
+    background-color: #e6e6e6;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 3px;
+    
+ }
+
+ .ClapTag{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    /* position: relative;
+    top: 5px; */
+ }
+
+ .ClapTag p{
+    position: relative;
+    padding: 3px;
+    left: 20px;
+    
+ }
+       
+ .DynamicHr{
+    width: 80%;
+    margin: auto;
+    }
+
+    .MoreSiren{
+        /* width: 100vw; */
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: rgb(255, 231, 109);
+    }
+    .MoreSirenCard{
+        width: 20%;
+        background-color: #fbd893;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        text-align: left;
+        box-shadow: #908D8D  -1px -1px 5px;
+    
+    }
+
+    .MoreSirenCard:hover{
+     background-color:  #fab833;
+     box-shadow: #e6d2d2  -1px -1px 5px;
+     border: 1px solid rgb(220, 206, 4);
+    }
+    
+    .MoreSirenCard img[alt="notfound"]{
+        width: 100%;
+        height: 10rem;
+        border-radius: 10px;
+
+    }
+
+    .MoreSirenCard p{
+        font-size: large;
+        color: black;
+        font-weight: bold;
+        /* height: 50px; */
+        margin: auto;
+    }
+    .MoreSiren_heading{
+        background-color: rgb(254, 253, 227);
+        font-size: 35px;
+       text-shadow: #ffd080 1px -1px 2px;
+        color: black
+    }
+
+    .SideBtn{
+        width: 10%;
+        position: absolute;
+        top: 90px;
+        
+    }
+    .BackBtn{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 80%;
+        border-radius: 10px;
+       position: relative;
+       left: 50%;
+       bottom: 20px;
+       margin: 10px;
+       border: 1px solid black;
+       transition: width 1s;
+        }
+.BackBtn:hover{
+background-color: rgb(36, 121, 5) ;
+color: white;
+box-shadow: #afb0ae 0px 0px 5px;
+}
+    .Clap_Share{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 20%;
+        margin: auto;
+        padding: 5px;
+        z-index: -1;
+        /* text-align: center; */
+    }
+
+    .Dynamic_NAV{
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        color: black;
+        height: 60px;
+        /* width: 100vw; */
+        align-items: center;
+        box-shadow: #8c8e8f 0px 0px 10px;
+
+    }
+
+    .Dyanmic_heading{
+        display: flex;
+        font-size: 20px;
+        
+        
+    }
+    .Dynamic_heading1{
+        transform: rotate(270deg);
+    }
+    .Dynamic_heading2{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .Dynamic_NAV button{
+        color: green;
+        border: 1px solid green;
+        height: 30px;
+        width: 100px;
+        font-weight: bold;
+    }
+    .Home_Main{
+        width: 80%;
+        margin: auto;
+        
+    }
+    .Home_Images{
+        margin-top: 20px;
+        grid-gap: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 10em 10em;
+      }
+
+      .img_0{
+        grid-row: 1/3;
+        padding: 0 1.2em 3em;
+      }
+
+      .Home_Img{
+        background-size: cover;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px #0000001a;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        padding: 0 .5em 1.25em;
+        text-shadow: 2px 2px 2px #7055b8;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 25px;
+
+      }
+
+      .Title{
+        font-size: 30px;
+        border-bottom: 3px solid #f08080;
+        border-radius: 3px;
+        padding: 3px;
+        margin: 15px;
+        display: inline-block;
+       }
+     
+        .Latest_Box{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+     .Latest_Card{
+        width: 30%;
+        /* height: 20rem; */
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        text-align: left;
+        box-shadow: #908D8D  -1px -1px 5px;
+    
+     }
+     .Latest_Card:hover{
+        box-shadow: #676768 0px 0px 3px 1px;
+     }
+
+     .The_Latest img[alt="notfound"]{
+       width: 100%;
+       height: 10rem;
+       border-radius: 10px;
+     }
+
+     .Latest_heading{
+        font-size: 20px;
+        font-weight: bold;
+     }
+     
+     .Latest_Date{
+        font-size: 12px;
+        color: #676768;
+     }
+
+.The_Article{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Article_Box_1{
+    width: 60%;
+}
+.Article_Box_2{
+    width: 30%;
+}
+.Add{
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(https://newspaperads.ads2publish.com/wp-content/uploads/2019/06/mx-player-an-original-series-bollywood-buzzinga-ad-delhi-times-12-05-2019.png);
+    background-size: contain;
+    background-repeat: repeat;
+    color: red;
+    text-align: center;
+    font-size: large;
+    border: 5px solid;
+    animation: Ad 1s infinite;
+}
+
+.single_img img[alt="notfound"]{
+    width: 100%;
+    height: 22.5em;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+    
+}
+.single_img img[alt="notfound"]:hover{
+    box-shadow: #908D8D  -1px -1px 5px;
+}
+
+.Latest_Stories_Card{
+    width: 30%;
+    /* height: 200px; */
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: #908D8D  -1px -1px 5px;
+        color: black;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.Latest_Stories_Card:hover{
+    box-shadow: #383737  -1px -1px 5px;
+
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #596b6629;
+    padding: 10px;
+}
+
+.footer_links{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.company_details{
+    width: 70em;
+}
+.company_details p{
+    text-align: left;
+}
+.company_details img[alt="notfound"]{
+    width: 40%;
+}
+.Products{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.Resourses{
+    width: 25%;
+}
+.find_me img[alt="notfound"]{
+    width: 30%;
+}
+/*  
+.Ham_icon{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(188, 55, 55);
+} */
+
+/* .Ham_icon{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.Hamburger_menu{
+    display: none;
+  
+    
+}
+
+.display_menu{
+    display: none;
+}
+
+/* -----------------------Media Query---------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .Ham_icon{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        border-radius: 5px;
+        right: 10%;
+        top: 15px;
+        
+    }
+    .bar{
+        width: 100%;
+        border-radius: 5px;
+        height: 10px;
+        background-color: black;
+    }
+    .bar1{
+        transform: translateY(-4px);
+
+    }
+    .bar3{
+        transform: translateY(4px);
+    }
+.menu{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+
+}   
+
+    .display_menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        
+    }
+    #NavLinks{
+        display: none
+        
+       }
+    .heading{
+        /* display: flex; */
+        justify-content:left;
+    
+    }
+    .NavBar{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ContentContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 80vw;
+       margin: auto;
+        
+    }
+    .GenericContent-1{
+        width: 200%;
+    }
+    h4{
+        font-size: small;
+    }
+    .Container1-1 p {
+        font-size: 10px;
+        line-height: 15px;
+       
+    }
+    .TopPost:first-child {
+        width: 280%;
+    }
+.Ad{
+    display: none;
+}
+
+/* ------------------------------dynamicCompo------------------------ */
+
+.DynamicCompo h1 {
+    font-size: 25px;
+}
+.DynamicImage img[alt="notfound"] {
+    height: 240px;
+    
+}
+.MoreSiren{
+    display: block;
+}
+
+.footer{
+    display: none;
+
+}
+.Latest_Box {
+    display: block;
+    
+}
+.Latest_Card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Add{
+    display: none;
+
+}
+.The_Article {
+    width: 85%;
+    display: inline-block;
+    
+}
+.single_img img[alt="notfound"] {
+    width: 200%;
+}
+.Article_Box_2 {
+    width: 42%;
+}
+.Latest_Stories_Card {
+    width: 100%;
+   display: inline-block;
+}
+.img_1{
+    display: none;
+}
+.img_2{
+    display: none;
+}
+.Home_Images{
+    grid-template-columns: 1fr;
+}
+  }
+    
