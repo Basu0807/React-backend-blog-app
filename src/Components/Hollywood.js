@@ -4,6 +4,7 @@ import { Store } from "./DataStore";
 import GenericCompo from "./FuncCompo/GenericCompo";
 import GenericCompo2 from "./FuncCompo/GenericCompo2";
 import LinkCompo from "./FuncCompo/LinkCompo";
+import Footer from "./FuncCompo/Footer";
 
 const Hollywood = () => {
   const HollywoodData = useContext(Store);
@@ -68,6 +69,7 @@ const Hollywood = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

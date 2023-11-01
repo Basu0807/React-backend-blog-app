@@ -5,6 +5,7 @@ import GenericCompo from "./FuncCompo/GenericCompo";
 
 import GenericCompo2 from "./FuncCompo/GenericCompo2";
 import LinkCompo from "./FuncCompo/LinkCompo";
+import Footer from "./FuncCompo/Footer";
 
 const Bollywood = () => {
   const BollyData = useContext(Store);
@@ -71,6 +72,7 @@ const Bollywood = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

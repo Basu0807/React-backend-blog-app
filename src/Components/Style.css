@@ -615,7 +615,7 @@ box-shadow: #afb0ae 0px 0px 5px;
 .footer{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #596b6629;
     padding: 10px;
 }
@@ -627,7 +627,8 @@ box-shadow: #afb0ae 0px 0px 5px;
 }
 
 .company_details{
-    width: 70em;
+    width: 30%;
+    padding: 10px
 }
 .company_details p{
     text-align: left;
@@ -636,12 +637,23 @@ box-shadow: #afb0ae 0px 0px 5px;
     width: 40%;
 }
 .Products{
-    width: 25%;
+    /* width: 10%; */
     display: flex;
     flex-direction: column;
+    line-height: 25px;
+    padding: 10px;
+    text-align: center;
 }
 .Resourses{
     width: 25%;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.find_me{
+    width: 32%;
+   
 }
 .find_me img[alt="notfound"]{
     width: 30%;

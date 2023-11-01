@@ -3,6 +3,7 @@ import { Store } from './DataStore'
 import GenericCompo from './FuncCompo/GenericCompo'
 import GenericCompo2 from './FuncCompo/GenericCompo2'
 import LinkCompo from './FuncCompo/LinkCompo'
+import Footer from './FuncCompo/Footer'
 
 const Technology = () => {
   const TechnologyData= useContext(Store)
@@ -68,6 +69,7 @@ const Technology = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

@@ -3,6 +3,7 @@ import { Store } from './DataStore'
 import GenericCompo2 from './FuncCompo/GenericCompo2'
 import GenericCompo from './FuncCompo/GenericCompo'
 import LinkCompo from './FuncCompo/LinkCompo'
+import Footer from './FuncCompo/Footer'
 
 const Food = () => {
   const FoodData= useContext(Store)
@@ -68,6 +69,7 @@ const Food = () => {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }

@@ -12,7 +12,7 @@ const Footer = () => {
     <img src='https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/navbar/logoPrepBytes.svg' alt='notfound'/>
 
         <p>PrepBytes students get mentored by industry experts who have achieved in their careers and are passionate about helping students achieve their dream.</p>
-        <p>Thanks PrepBytes Your course really helped me lot , helped me Crack my company Nagarro through my campus placements. I also cracked TCS Codevita.Thank you so much.</p>
+        {/* <p>Thanks PrepBytes Your course really helped me lot , helped me Crack my company Nagarro through my campus placements. I also cracked TCS Codevita.Thank you so much.</p> */}
 </div>
 <div className='Products'>
 
@@ -34,7 +34,7 @@ const Footer = () => {
   <p>About Us</p>
 </div>
 <div className='find_me'>
-  <h1>Find ME ?</h1>
+  <h2>Find ME ?</h2>
   <img src='https://worldofprintables.com/wp-content/uploads/2020/12/Social-Icons-01-Free-SVG.png.webp' alt='notfound'/>
 <h4>Call Me: 7987481181</h4>
 <h4>E-mail Me: vasupandeyji.98@gmail.com</h4>
